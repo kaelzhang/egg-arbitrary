@@ -30,7 +30,7 @@ config/plugin.js
 ```js
 exports.singletons = {
   enable: true,
-  package: 'egg-mysql'
+  package: 'egg-singletons'
 }
 ```
 
