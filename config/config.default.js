@@ -1,2 +1,2 @@
-exports.arbitrary = {
+exports.singletons = {
 }

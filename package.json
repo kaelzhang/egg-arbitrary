@@ -1,7 +1,7 @@
 {
-  "name": "egg-arbitrary",
+  "name": "egg-singletons",
   "version": "1.0.0",
-  "description": "Egg plugin for arbitrary singletons.",
+  "description": "Egg plugin for multiple singletons.",
   "files": [
     "lib/",
     "agent.js",
@@ -9,12 +9,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/kaelzhang/egg-arbitrary.git"
+    "url": "git://github.com/kaelzhang/egg-singletons.git"
   },
   "author": "kaelzhang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaelzhang/egg-arbitrary/issues"
+    "url": "https://github.com/kaelzhang/egg-singletons/issues"
   },
   "dependencies": {
     "lodash.foreach": "^4.5.0"
@@ -29,7 +29,7 @@
     "utility": "^1.11.0"
   },
   "eggPlugin": {
-    "name": "arbitrary"
+    "name": "singletons"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -38,7 +38,7 @@
     "egg",
     "eggPlugin",
     "egg-plugin",
-    "arbitrary"
+    "singletons"
   ],
   "scripts": {
     "autod": "autod",

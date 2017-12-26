@@ -1,2 +1,2 @@
-const arbitrary = require('./lib/arbitrary')
-module.exports = arbitrary('app')
+const singletons = require('./lib/singletons')
+module.exports = singletons('app')
